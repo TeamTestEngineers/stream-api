@@ -1,4 +1,5 @@
 import json
+from urllib import response
 
 
 def hello(event, context):
@@ -8,3 +9,17 @@ def hello(event, context):
     }
 
     return {"statusCode": 200, "body": json.dumps(body)}
+
+def scampy(event,context):
+    body={
+        "message":"this is scampy method",
+        "info":"scampy",
+        "input":event,
+    }
+
+    response={
+            "statusCode":200,
+            "body":json.dumps(body)
+        }
+
+    return response
