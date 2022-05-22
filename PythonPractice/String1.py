@@ -1,4 +1,5 @@
 from msilib.schema import ReserveCost
+import string
 
 
 String1 = 'Welcome to the Geeks World'
@@ -59,4 +60,14 @@ String1= "I'm a \"geek\""
 
 inputSentence = input("PLase Input a sentence : ")
 print(" ". join(reversed(inputSentence.split())))
+
+String1 = input("Enter the string: ")
+outputString = ''
+
+for i in range(len(string1)):
+    if(i % 2 == 0):
+        outputString = outputString+string1[i]
+
+print("input string: ", string1)
+print("String after odd charcater: ", outputString)
 
