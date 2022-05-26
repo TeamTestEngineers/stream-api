@@ -33,7 +33,8 @@ Step 4: Validate API by executing the following curl commands. Replace 54.221.13
 	|curl http://localhost:4243/version	|
 	|curl http://54.221.134.7:4243/version	|
 	|_______________________________________|																						
-In Jenkins:																				 _______________________________________________________________________	
+In Jenkins:		
+         _______________________________________________________________________	
 	|  Go to Manage jenkins-> Manage Nodes and clouds --> Configure Clouds 	|				
 	|   1. Add new Docker							|	
 	|   2. Provide Name in Name field.					|
